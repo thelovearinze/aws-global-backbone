@@ -3,6 +3,8 @@
 ## Project Vision
 This project architects a high-availability global backbone connecting Dublin, Ireland (eu-west-1) and Cape Town, South Africa (af-south-1). By leveraging the private AWS Global Accelerator backbone via Transit Gateway Peering, this architecture eliminates the latency and security risks associated with the public internet for cross-continental workloads.
 
+
+
 ## Technical Stack
 * Cloud Provider: AWS (Global Infrastructure)
 * Infrastructure as Code: Terraform (HCL)
@@ -23,5 +25,3 @@ During deployment, I identified and resolved two significant real-world challeng
 1. git clone https://github.com/thelovearinze/aws-global-backbone.git
 2. terraform init
 3. terraform apply -auto-approve
-
-Contact: Love Arinze - Cloud Network Engineer
